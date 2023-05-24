@@ -28,11 +28,11 @@ void getUserInput(){
 }
 
 void printArray(){
-    cout << "["; 
+    cout << "<"; 
     for(int i = 0; i < SIZE; i++){
         cout << " " << userVector[i] << " ";
     }
-    cout << "]";
+    cout << ">";
 }
 
 double getMagnitude(){
